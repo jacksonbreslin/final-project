@@ -1,75 +1,74 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
 
-    <title>Jackson Breslin's Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
+    <!--
+      This is the page head - it contains info the browser uses
+      Like the title, which appears on the browser tab but not inside the page
+      Further down you'll see the content that displays in the page
+    -->
+    
+    
+    <title>About Me!</title>
 
-    <!-- Your custom CSS -->
-    <link rel="stylesheet" href="main.css">
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="/main.css" />
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- The website JavaScript file -->
+    <script src="/script.js" defer></script>
   </head>
   <body>
+    <!--
+      The body includes the content you see in the page
+      Each element is defined using tags, like this <div></div>
+      The attributes like class="wrapper" let us style elements in the CSS
+    -->
+    <div class="wrapper">
+      <div class="content" role="main">
+        <h1 class="title">About Me!</h1>
+       
+        
+        <img
+          src="https://www.thenewshouse.com/wp-content/uploads/avatar_user_2219_1695481405-300x300.jpg"
+          alt="Editor illustration"
+          title="Click the image!"
+        />
+        
+        
+        <div class="instructions">
+          <h2>Jackson Breslin</h2>
+          <p>
+            I am a sophomore at Syracuse University studying Broadcast and Digital Journalism. I have two dogs -- Jalepeño and Casey (one of them I like; the other is evil).
+          </p>
+          <!--  🚧 TODO: ADD BUTTON HERE -->
 
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Meet Jackson Breslin</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item"><a class="nav-link active" href="aboutme/index.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="myreel/index.html">Reel</a></li>
-            <li class="nav-item"><a class="nav-link" href="assignments/index.html">Assignments</a></li>
-            <li class="nav-item"><a class="nav-link" href="finalproject/index.html">Final Project</a></li>
-            <li class="nac-item"><a class="nav-link" href="index.html">Home</a></li>
-          </ul>
+          <!-- Once you've added the button from TODO.md, click it in the page -->
+          <!-- Check out the function in script.js to see how it works -->
         </div>
-      </div>
-    </nav>
-
-    <!-- Hero section -->
-    <div class="container mt-5">
-      <div class="row text-center">
-        <div class="col-sm">
-          <h1 class="roboto-slab">Welcome to my portfolio!</h1>
-          <p class="anton-text">Here you can find my contact information, reel, and more!</p>
-          <img src="photoofme.jpg" alt="Jackson Breslin" class="img-fluid rounded">
-        </div>
-      </div>
-
- 
-
-
-
-      <!-- Placeholder/Content Blocks -->
-      <div class="row mt-5">
-        <div class="col text-center">
-          <h2></h2>
-          <p></p>
-        </div>
-      </div>
-
-      <!-- Contact links -->
-      <div class="row text-center mt-4">
-        <div class="col"><a href="mailto:jbreslin.04@gmail.com">Contact Me!</a></div>
-        <div class="col"><a href="https://github.com/jacksonbreslin">My Github</a></div>
-        <div class="col"><a href="https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:01e39c19-766e-49da-a077-350dcce4d4f0">My Resume</a></div>
       </div>
     </div>
-
-    <!-- Bootstrap Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <!-- The footer holds our remix button — you can keep or delete it ✂ -->
+    <footer class="footer">
+      <div class="links"></div>
+      <a
+        class="btn--remix"
+        target="_top"
+        href="https://glitch.com/edit/#!/remix/glitch-hello-website"
+      >
+        <img
+          src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+          alt=""
+        />
+        Remix on Glitch
+      </a>
+    </footer>
   </body>
 </html>
